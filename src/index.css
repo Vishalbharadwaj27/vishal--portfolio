@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@layer base {
+  :root {
+    /* Refined dark theme - softer, more aesthetic */
+    --background: 222 20% 10%;
+    --foreground: 210 25% 92%;
+
+    --card: 222 18% 13%;
+    --card-foreground: 210 25% 92%;
+
+    --popover: 222 18% 13%;
+    --popover-foreground: 210 25% 92%;
+
+    --primary: 199 89% 48%;
+    --primary-foreground: 222 20% 7%;
+
+    --secondary: 222 16% 18%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 222 14% 16%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 162 72% 45%;
+    --accent-foreground: 222 20% 7%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 14% 22%;
+    --input: 222 14% 22%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 222 18% 13%;
+    --sidebar-foreground: 210 25% 92%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 222 20% 7%;
+    --sidebar-accent: 222 16% 18%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 222 14% 22%;
+    --sidebar-ring: 199 89% 48%;
+
+    /* Project section tokens - refined */
+    --project-card-bg: 222 18% 14%;
+    --project-card-border: 222 14% 24%;
+    --project-card-hover-border: 199 70% 45%;
+    --project-gradient-start: 199 89% 48%;
+    --project-gradient-end: 162 72% 45%;
+    --project-tag-bg: 199 89% 48% / 0.12;
+    --project-tag-text: 199 80% 70%;
+    --project-impact-bg: 162 72% 45% / 0.1;
+    --project-impact-text: 162 60% 55%;
+  }
+
+  .dark {
+    --background: 222 20% 10%;
+    --foreground: 210 25% 92%;
+    --card: 222 18% 13%;
+    --card-foreground: 210 25% 92%;
+    --popover: 222 18% 13%;
+    --popover-foreground: 210 25% 92%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 222 20% 7%;
+    --secondary: 222 16% 18%;
+    --secondary-foreground: 210 20% 85%;
+    --muted: 222 14% 16%;
+    --muted-foreground: 215 15% 60%;
+    --accent: 162 72% 45%;
+    --accent-foreground: 222 20% 7%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 14% 22%;
+    --input: 222 14% 22%;
+    --ring: 199 89% 48%;
+    --sidebar-background: 222 18% 13%;
+    --sidebar-foreground: 210 25% 92%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 222 20% 7%;
+    --sidebar-accent: 222 16% 18%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 222 14% 22%;
+    --sidebar-ring: 199 89% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
