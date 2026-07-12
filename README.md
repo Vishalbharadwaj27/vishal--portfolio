@@ -8,7 +8,7 @@ Built using a modern frontend stack with scalable structure and clean UI impleme
 ## 🚀 Live Demo
 
 Deployed on Vercel  
-https://<your-vercel-url>.vercel.app
+https://vishal-portfolio-beta.vercel.app
 
 ---
 

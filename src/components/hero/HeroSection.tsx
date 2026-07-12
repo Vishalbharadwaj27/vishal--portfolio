@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download, ExternalLink } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToProjects = () => {
@@ -23,52 +23,25 @@ const HeroSection = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
           </span>
-          <span className="text-sm text-muted-foreground">Open to opportunities</span>
+          <span className="text-sm text-muted-foreground">Open to entry-level SDE roles</span>
         </div>
 
         {/* Name */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-foreground mb-4">
-          Vishal M{" "}
-          <span className="bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
-            Bharadwaj
-          </span>
+          Vishal M Bharadwaj
         </h1>
 
         {/* Title */}
         <p className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
-          Full-Stack Web Developer{" "}
-          <span className="text-primary">/</span>{" "}
-          <span className="text-foreground/80">MERN + AI</span>
+          Full-Stack Developer specializing in React, Node.js, and scalable backends.
         </p>
 
         {/* Description */}
         <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed mb-10">
-          Information Science Engineering graduate with a strong foundation in software development,
-          data structures, and backend systems. Building reliable and scalable software with emphasis
-          on code quality and performance.
+          Built real-time collaboration platforms and production-ready systems.<br />
+          Open to entry-level SDE opportunities.
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
-          <a
-            href="#projects"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToProjects();
-            }}
-            className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
-          >
-            View Projects
-            <ArrowDown className="h-4 w-4" />
-          </a>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 rounded-xl border border-border bg-secondary/50 px-6 py-3 text-sm font-semibold text-foreground transition-all hover:bg-secondary hover:scale-105 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
-          >
-            <Mail className="h-4 w-4" />
-            Contact Me
-          </a>
-        </div>
 
         {/* Social Links */}
         <div className="flex items-center justify-center gap-4">

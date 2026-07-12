@@ -28,9 +28,10 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-2">
-          {/* Left: Bio */}
+        <div className="grid gap-8 md:grid-cols-2">
+          {/* Column 1: Education & Experience */}
           <div className="space-y-6">
+            {/* Education Card */}
             <div className="rounded-2xl border border-border bg-card/50 p-6">
               <h3 className="text-lg font-bold text-foreground mb-4 flex items-center gap-2">
                 <span className="p-2 rounded-lg bg-primary/10">
@@ -61,54 +62,61 @@ const AboutSection = () => {
               </div>
             </div>
 
+            {/* Experience Card */}
+            <div className="rounded-2xl border border-border bg-card/50 p-6">
+              <h3 className="text-lg font-bold text-foreground mb-4">Experience</h3>
+              <div>
+                <p className="font-semibold text-foreground">Full Stack Developer Intern</p>
+                <p className="text-sm text-muted-foreground">Qugates Technologies</p>
+                <div className="flex items-center gap-3 text-sm text-muted-foreground mt-2">
+                  <span className="flex items-center gap-1.5">
+                    <Calendar className="h-4 w-4" />
+                    January 2026 – June 2026
+                  </span>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground leading-relaxed mt-3 text-sm">
+                  <li>Full-stack web development with React, Node.js, Express.js, and MySQL.</li>
+                  <li>Collaborated on Agile teams, participated in code reviews and standups.</li>
+                  <li>Implemented responsive UIs, secure APIs, and database optimizations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Column 2: Career Objective & Certifications */}
+          <div className="space-y-6">
+            {/* Career Objective Card */}
             <div className="rounded-2xl border border-border bg-card/50 p-6">
               <h3 className="text-lg font-bold text-foreground mb-4">
                 Career Objective
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Information Science and Engineering graduate with a strong foundation in
-                software development, data structures, and backend systems. Seeking an
-                entry-level engineering role where I can contribute to building reliable
-                and scalable software systems with strong emphasis on code quality and
-                performance.
+                Full-stack developer focused on building scalable, production-ready systems with strong emphasis on backend architecture and clean code. Seeking entry-level SDE role to contribute to reliable software solutions.
               </p>
             </div>
-              <div className="rounded-2xl border border-border bg-card/50 p-6">
-                <h3 className="text-lg font-bold text-foreground mb-4">Experience</h3>
-                <div>
-                  <p className="font-semibold text-foreground">Full Stack Developer Intern</p>
-                  <p className="text-sm text-muted-foreground">Qugates Technologies</p>
-                  <div className="flex items-center gap-3 text-sm text-muted-foreground mt-2">
-                    <span>January 2026 – Present</span>
-                  </div>
-                  <p className="text-muted-foreground leading-relaxed mt-3">
-                    Working on full-stack web development projects involving frontend development, backend integration, API handling, and deployment workflows. Contributing to real-world production systems and collaborating within a professional development environment.
-                  </p>
-                </div>
-              </div>
-          </div>
 
-          {/* Right: Certifications */}
-          <div className="rounded-2xl border border-border bg-card/50 p-6 h-fit">
-            <h3 className="text-lg font-bold text-foreground mb-6 flex items-center gap-2">
-              <span className="p-2 rounded-lg bg-accent/10">
-                <Award className="h-5 w-5 text-accent" />
-              </span>
-              Certifications
-            </h3>
-            <ul className="space-y-4">
-              {certifications.map((cert, index) => (
-                <li
-                  key={index}
-                  className="flex items-start gap-3 p-3 rounded-xl bg-secondary/30 border border-border/50"
-                >
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-xs font-bold text-primary">
-                    {index + 1}
-                  </span>
-                  <span className="text-sm text-foreground/90">{cert}</span>
-                </li>
-              ))}
-            </ul>
+            {/* Certifications Card */}
+            <div className="rounded-2xl border border-border bg-card/50 p-6">
+              <h3 className="text-lg font-bold text-foreground mb-6 flex items-center gap-2">
+                <span className="p-2 rounded-lg bg-accent/10">
+                  <Award className="h-5 w-5 text-accent" />
+                </span>
+                Certifications
+              </h3>
+              <ul className="space-y-4">
+                {certifications.map((cert, index) => (
+                  <li
+                    key={index}
+                    className="flex items-start gap-3 p-3 rounded-xl bg-secondary/30 border border-border/50"
+                  >
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-xs font-bold text-primary">
+                      {index + 1}
+                    </span>
+                    <span className="text-sm text-foreground/90">{cert}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

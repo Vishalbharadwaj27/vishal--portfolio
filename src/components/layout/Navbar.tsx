@@ -68,16 +68,17 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Resume Button (Desktop) */}
-          <a
-            href="https://drive.google.com/file/d/1fp-pB6aC8xztFyklyDh19abh5qFBKiFt/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90"
-          >
-            Resume
-          </a>
-
+          {/* CTA Buttons (Desktop) */}
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="https://drive.google.com/file/d/1DuXyVUrXzDfnffgqnxODWmsnD0tb5Yzi/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90"
+            >
+              View Resume
+            </a>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -113,12 +114,12 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="/Vishal_Resume.pdf"
+                  href="https://drive.google.com/file/d/1DuXyVUrXzDfnffgqnxODWmsnD0tb5Yzi/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-4 py-3 text-sm font-semibold text-primary rounded-lg transition-colors hover:bg-primary/10"
                 >
-                  Download Resume
+                  View Resume
                 </a>
               </li>
             </ul>

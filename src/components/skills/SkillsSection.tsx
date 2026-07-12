@@ -1,4 +1,4 @@
-import { Code, Server, Database, Brain, Wrench, Sparkles } from "lucide-react";
+import { Code, Server, Database, Brain, Wrench, Sparkles, Layout } from "lucide-react";
 
 interface SkillCategory {
   title: string;
@@ -11,38 +11,44 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Programming Languages",
     icon: <Code className="h-5 w-5" />,
-    skills: ["Java", "JavaScript", "C"],
+    skills: ["JavaScript", "TypeScript", "Java"],
     color: "from-blue-500/20 to-blue-600/10",
   },
   {
-    title: "Web & Backend",
+    title: "Frontend",
+    icon: <Layout className="h-5 w-5" />,
+    skills: ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    color: "from-cyan-500/20 to-cyan-600/10",
+  },
+  {
+    title: "Backend",
     icon: <Server className="h-5 w-5" />,
-    skills: ["React.js", "Node.js", "Spring Boot"],
+    skills: ["Node.js", "Express.js", "Spring Boot"],
     color: "from-emerald-500/20 to-emerald-600/10",
   },
   {
-    title: "APIs & Databases",
+    title: "Databases",
     icon: <Database className="h-5 w-5" />,
-    skills: ["REST APIs", "MySQL"],
+    skills: ["MongoDB", "MySQL", "SQLite"],
     color: "from-orange-500/20 to-orange-600/10",
   },
   {
-    title: "Core CS Fundamentals",
+    title: "Core Competencies",
     icon: <Brain className="h-5 w-5" />,
-    skills: ["Data Structures", "Object-Oriented Design", "Time Complexity Analysis"],
+    skills: ["REST APIs", "JWT Auth", "Real-Time Systems (Socket.IO)", "State Management", "Responsive UI"],
     color: "from-purple-500/20 to-purple-600/10",
   },
   {
-    title: "Tools",
+    title: "Tools & DevOps",
     icon: <Wrench className="h-5 w-5" />,
     skills: ["Git", "VS Code", "Postman"],
     color: "from-rose-500/20 to-rose-600/10",
   },
   {
-    title: "AI",
+    title: "AI & Machine Learning",
     icon: <Sparkles className="h-5 w-5" />,
     skills: ["Gemini API", "Fine-tuned Models (LoRA, PEFT)"],
-    color: "from-cyan-500/20 to-cyan-600/10",
+    color: "from-amber-500/20 to-amber-600/10",
   },
 ];
 
