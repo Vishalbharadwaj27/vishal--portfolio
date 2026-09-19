@@ -11,7 +11,7 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Programming Languages",
     icon: <Code className="h-5 w-5" />,
-    skills: ["JavaScript", "TypeScript", "Java"],
+    skills: ["TypeScript", "JavaScript", "C#", "Java"],
     color: "from-blue-500/20 to-blue-600/10",
   },
   {
@@ -23,7 +23,7 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Backend",
     icon: <Server className="h-5 w-5" />,
-    skills: ["Node.js", "Express.js", "Spring Boot"],
+    skills: ["Node.js", "Express.js", ".NET"],
     color: "from-emerald-500/20 to-emerald-600/10",
   },
   {

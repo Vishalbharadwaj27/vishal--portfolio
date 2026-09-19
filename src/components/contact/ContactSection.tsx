@@ -447,22 +447,6 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-
-            <div className="rounded-2xl border border-accent/30 bg-accent/5 p-6">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-3 w-3 bg-accent"></span>
-                </span>
-                <span className="font-semibold text-foreground">
-                  Available for Opportunities
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground">
-                Currently seeking entry-level software engineering roles. Open to
-                full-time positions and internships.
-              </p>
-            </div>
           </div>
 
           <div className="lg:col-span-3">

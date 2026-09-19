@@ -20,10 +20,9 @@ const HeroSection = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 rounded-full bg-secondary/60 border border-border px-4 py-1.5 mb-8">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
           </span>
-          <span className="text-sm text-muted-foreground">Open to entry-level SDE roles</span>
+          <span className="text-sm text-muted-foreground">Associate Software Engineer at Noesys Software Pvt Ltd</span>
         </div>
 
         {/* Name */}
@@ -33,13 +32,12 @@ const HeroSection = () => {
 
         {/* Title */}
         <p className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
-          Full-Stack Developer specializing in React, Node.js, and scalable backends.
+          Full-Stack Developer
         </p>
 
         {/* Description */}
         <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed mb-10">
-          Built real-time collaboration platforms and production-ready systems.<br />
-          Open to entry-level SDE opportunities.
+          Building scalable solutions with React, TypeScript, and C#.
         </p>
 
 

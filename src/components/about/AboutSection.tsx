@@ -66,18 +66,18 @@ const AboutSection = () => {
             <div className="rounded-2xl border border-border bg-card/50 p-6">
               <h3 className="text-lg font-bold text-foreground mb-4">Experience</h3>
               <div>
-                <p className="font-semibold text-foreground">Full Stack Developer Intern</p>
-                <p className="text-sm text-muted-foreground">Qugates Technologies</p>
+                <p className="font-semibold text-foreground">Associate Software Engineer</p>
+                <p className="text-sm text-muted-foreground">Noesys Software Pvt Ltd</p>
                 <div className="flex items-center gap-3 text-sm text-muted-foreground mt-2">
                   <span className="flex items-center gap-1.5">
                     <Calendar className="h-4 w-4" />
-                    January 2026 – June 2026
+                    August 2026 – Present
                   </span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground leading-relaxed mt-3 text-sm">
-                  <li>Full-stack web development with React, Node.js, Express.js, and MySQL.</li>
-                  <li>Collaborated on Agile teams, participated in code reviews and standups.</li>
-                  <li>Implemented responsive UIs, secure APIs, and database optimizations.</li>
+                  <li>Developing and maintaining robust backend systems and scalable web applications.</li>
+                  <li>Collaborating with cross-functional teams to deliver high-quality software solutions.</li>
+                  <li>Optimizing system performance and database queries for improved efficiency.</li>
                 </ul>
               </div>
             </div>
@@ -88,10 +88,10 @@ const AboutSection = () => {
             {/* Career Objective Card */}
             <div className="rounded-2xl border border-border bg-card/50 p-6">
               <h3 className="text-lg font-bold text-foreground mb-4">
-                Career Objective
+                Summary
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Full-stack developer focused on building scalable, production-ready systems with strong emphasis on backend architecture and clean code. Seeking entry-level SDE role to contribute to reliable software solutions.
+                Associate Software Engineer with a focus on building scalable, production-ready systems. Passionate about backend architecture, clean code, and delivering high-quality software solutions in collaborative environments.
               </p>
             </div>
 
