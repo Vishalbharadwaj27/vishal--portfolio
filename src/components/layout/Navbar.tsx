@@ -71,7 +71,7 @@ const Navbar = () => {
           {/* CTA Buttons (Desktop) */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://drive.google.com/file/d/1DuXyVUrXzDfnffgqnxODWmsnD0tb5Yzi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Y2MSnBCJ-XIJO6jPGohxxtrn6k9KVZal/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90"
@@ -114,7 +114,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1DuXyVUrXzDfnffgqnxODWmsnD0tb5Yzi/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Y2MSnBCJ-XIJO6jPGohxxtrn6k9KVZal/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block px-4 py-3 text-sm font-semibold text-primary rounded-lg transition-colors hover:bg-primary/10"
